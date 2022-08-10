@@ -1,0 +1,122 @@
+#toggleGroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#slidingMenu {
+  margin: 2rem 1rem;
+}
+
+#menuA {
+  width: 15rem;
+  background-color: #f0f0f0;
+  text-align: center;
+  border: #f0f0f0 solid 1px;
+  padding: 1rem 0.5rem;
+}
+
+.subMenu {
+  display: none;
+  width: 15rem;
+  background-color: #fbfbfb;
+  border: #f0f0f0 solid 1px;
+  text-align: center;
+  padding: 0.7rem 0.5rem;
+}
+
+#dragNDropBoxToBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+#draggableElements {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  border: black dashed 1px;
+}
+
+#draggableElements img {
+  height: 80px;
+  width: 80px;
+  background-color: #e7e1c2;
+  border-radius: 5px;
+  margin: 0.5rem 0.5rem;
+  cursor: move;
+}
+
+#droppableElements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: black dashed 1px;
+  width: 100%;
+  height: 300px;
+  margin-top: 2rem;
+}
+
+.dropped {
+  height: 80px;
+  width: 80px;
+  background-color: #e7e1c2;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  margin: 0.5rem 0.5rem;
+  cursor: move;
+}
+
+#switchAll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem 1rem;
+}
+
+.modeName {
+  margin: 0 1.5rem;
+  padding: 0;
+  line-height: 0;
+  font-size: 0.9rem;
+}
+
+#swiTch {
+  display: flex;
+  align-content: center;
+}
+
+.switchBody {
+  width: 64px;
+  height: 34px;
+  background-color: gray;
+  border-radius: 17px;
+  border: white solid 1px;
+  position: absolute;
+}
+
+.switchBall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 0.5rem;
+  text-align: center;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
